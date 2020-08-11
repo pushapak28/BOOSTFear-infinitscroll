@@ -38,11 +38,11 @@ h1 {
 }
 
 /* image container */
-.image-Container {
+.image-container {
   margin: 10px 30%;
 }
 
-.image-Container img {
+.image-container img {
   width: 100%;
   margin-top: 5px;
 }
@@ -53,7 +53,24 @@ h1 {
     font-size: 20px;
   }
 
-  .image-Container {
+  .image-container {
     margin: 10px;
   }
+}
+
+#footer {
+
+  color: rgba(40, 43, 9, 0.733);
+  margin-bottom: 25px;
+  padding: 5px;
+  bottom: 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 10px;
+}
+
+.fa-heart {
+  margin: 3px;
+  color: red;
 }
